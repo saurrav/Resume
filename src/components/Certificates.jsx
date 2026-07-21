@@ -2,10 +2,13 @@ import React from 'react';
 import { certificates } from '../data/portfolioData';
 
 const CertificateCard = ({ cert, aosDelay }) => (
-  <div 
+  <a 
+    href={cert.url || '#'}
+    target={cert.url ? "_blank" : undefined}
+    rel={cert.url ? "noopener noreferrer" : undefined}
     data-aos="zoom-in"
     data-aos-delay={aosDelay}
-    className="bg-black/20 backdrop-blur-sm rounded-2xl p-5 border border-white/10 hover:border-white/25 hover:scale-105 hover:shadow-[0_15px_40px_rgba(0,0,0,0.3)] transition-all duration-500 cursor-default group"
+    className={`block bg-black/20 backdrop-blur-sm rounded-2xl p-5 border border-white/10 hover:border-white/25 hover:scale-105 hover:shadow-[0_15px_40px_rgba(0,0,0,0.3)] transition-all duration-500 group ${cert.url ? 'cursor-pointer' : 'cursor-default'}`}
   >
     <div className="flex items-start gap-4">
       <span className="text-2xl mt-0.5 group-hover:scale-110 transition-transform duration-300">{cert.icon}</span>
@@ -18,7 +21,7 @@ const CertificateCard = ({ cert, aosDelay }) => (
         </p>
       </div>
     </div>
-  </div>
+  </a>
 );
 
 const Certificates = () => {
@@ -55,7 +58,7 @@ const Certificates = () => {
         </div>
 
         {/* View All Certificates CTA */}
-        <div data-aos="fade-up" data-aos-delay="700" className="flex justify-center">
+        <div data-aos="fade-up" data-aos-delay="700" className="hidden flex justify-center">
           <a
             href={certificates.viewAllUrl}
             target="_blank"

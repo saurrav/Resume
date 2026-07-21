@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
 
         {/* Right Side: CTA Button */}
-        <div className="hidden md:block">
+        <div className="hidden">
           <a 
             href={hireMeMailto}
             className="px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-white font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md"
@@ -100,7 +100,7 @@ const Navbar = () => {
               {link}
             </a>
           ))}
-          <div className="pt-4 pb-2">
+          <div className="hidden pt-4 pb-2">
              <a 
                href={hireMeMailto}
                onClick={() => setIsOpen(false)} 

@@ -80,7 +80,7 @@ const Contact = () => {
         className="absolute top-0 left-0 w-full h-full flex flex-col justify-start items-center overflow-hidden pointer-events-none z-0 pt-16 md:pt-12"
       >
         <h1 
-          className="text-[25vw] leading-[0.75] font-black text-white uppercase tracking-tighter select-none scale-y-[1.6] origin-top"
+          className="text-[14vw] md:text-[15vw] leading-[0.75] font-black text-white uppercase tracking-tighter select-none scale-y-[1.6] origin-top whitespace-nowrap"
           style={{ fontFamily: "'Impact', 'Arial Black', sans-serif" }}
         >
           Contact
@@ -88,10 +88,10 @@ const Contact = () => {
       </motion.div>
 
       {/* Form Card Overlay */}
-      <div className="relative z-10 w-full flex justify-end items-end">
+      <div className="relative z-10 w-full flex justify-center items-end">
         <div 
           data-aos="fade-up"
-          className="bg-[#ff2a2a] w-full md:w-[85%] lg:w-[75%] p-8 md:p-16 text-white flex flex-col justify-between"
+          className="bg-[#ff2a2a] w-full md:w-[85%] lg:w-[75%] p-8 md:p-16 text-white flex flex-col justify-between rounded-3xl"
         >
           <div className="flex flex-col sm:flex-row justify-between items-start gap-8 mb-12">
             <div className="text-xs font-bold tracking-[0.2em] uppercase opacity-90">
