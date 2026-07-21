@@ -1,5 +1,5 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
+// portfolioData.js — Centralized configuration for Saurav Sunil's Portfolio
 // All external links, personal info, and content in one place.
 // Update this file to change any content across the entire site.
 // ============================================================
@@ -30,18 +30,22 @@ export const heroContent = {
   greeting: "Hi, I'm SAURAV SUNIL",
   titleHighlight: "FULL STACK SOFTWARE ENGINEER",
   subtitle:
-    "Adaptive Full Stack Software Engineer . A fast learner driven by curiosity.",
+    "Adaptive Full Stack Software Engineer & Application Developer. A fast learner driven by curiosity.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:sauravsunil005@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Saurav,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
   ctaResume: { text: "Download Resume", href: "/Saurav_Sunil_FullStack_Developer_Resume.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-white text-xl font-black mx-1 tracking-wide uppercase">Saurav sunil</span>, an aspiring software engineer based in Kerala, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
+  bio: {
+    before: "Hi, my name is",
+    name: "Saurav Sunil",
+    after: ", an aspiring software engineer based in Kerala, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.",
+  },
   techStack: ["Django", "ASP.NET MVC ", "Laravel"],
 };
 
@@ -305,7 +309,7 @@ export const projects = [
     => Live Strategy Validation: Successfully ran the automated bot live for 3 months, scaling a $100 starting capital base to over $600 through disciplined execution of the automated hedging strategy.`,
     techTags: ["Python3", "Binance REST APIs", "MySQL", "DigitalOcean"],
     links: {
-      //github: "https://github.com/mdyusuf0/Karigar",
+      //github: "https://github.com/sauravsunil/Astra",
       //frontendDemo: "https://karigar-frontend.onrender.com",
       //backendApi: "https://karigar-zny2.onrender.com",
     },
@@ -373,9 +377,11 @@ export const footerContent = {
 };
 
 // EmailJS Configuration
-// Will read directly from environment variables in Vite (starting with VITE_)
+// Keys are read exclusively from environment variables.
+// Never commit real credentials to source code.
+// Copy .env.example to .env and fill in your values.
 export const emailjsConfig = {
-  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_n2v4l55",
-  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_p4sabnu",
-  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "gVtGBZmweQSPRVM-g",
+  serviceId:  import.meta.env.VITE_EMAILJS_SERVICE_ID  || "",
+  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "",
+  publicKey:  import.meta.env.VITE_EMAILJS_PUBLIC_KEY  || "",
 };

@@ -54,7 +54,7 @@ const About = () => {
               <div className="w-full aspect-[3/4] overflow-hidden rounded-xl bg-gray-800 border-2 border-transparent">
                 <img 
                   src={stackImage} 
-                  alt="Md Yusuf — Full Stack & Java Developer" 
+                  alt="Saurav Sunil — Full Stack Software Engineer" 
                   className="w-full h-full object-cover object-top"
                 />
               </div>
@@ -67,10 +67,13 @@ const About = () => {
         <div data-aos="fade-left" data-aos-delay="200" className="flex-1 text-white mt-8 md:mt-0 relative z-20">
           
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">{aboutContent.heading}</h2>
-          <p 
-            className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-gray-300"
-            dangerouslySetInnerHTML={{ __html: aboutContent.bio }}
-          />
+          <p className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-gray-300">
+            {aboutContent.bio.before}{' '}
+            <span className="text-white text-xl font-black mx-1 tracking-wide uppercase">
+              {aboutContent.bio.name}
+            </span>
+            {aboutContent.bio.after}
+          </p>
 
           {/* Horizontal Skills Row */}
           <div className="flex items-center gap-10 mt-8">
