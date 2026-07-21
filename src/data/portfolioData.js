@@ -42,9 +42,9 @@ export const heroContent = {
 export const aboutContent = {
   heading: "Hello!",
   bio: {
-    before: "Hi, my name is",
-    name: "Saurav Sunil",
-    after: ", an aspiring software engineer based in Kerala, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.",
+    //before: "Hi, my name is",
+    name: "Full-Stack Software Engineer & Application Developer",
+    after: "based in Kerala, India. Dedicated to architecting clean, scalable full-stack applications with hands-on experience in LMS(Legal Management System) and EMR(Electronic Medical Record) domains.",
   },
   techStack: ["Django", "ASP.NET MVC ", "Laravel"],
 };
