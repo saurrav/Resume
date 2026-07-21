@@ -277,11 +277,11 @@ export const projects = [
     badge: "🚀 Flagship Project",
     title: "Autonomous Resource Management | Cron Pilot 2026",
     description: `
-    => Architected a developer-centric UI dashboard for real-time log monitoring and precision crontab management, eliminating reliance on external VPS/cloud infrastructure.
-    => Engineered a native bridge between Android and Termux, enabling seamless execution of polyglot binaries (Rust, Go, Python3, Node.js) on mobile ARM hardware as an independent automation node.
-    => Localized system infrastructure to transform mobile ARM hardware into an independent automation node, eliminating reliance on external VPS and cloud server costs.
-    => Built a modular execution engine designed for rapid deployment of new language environments and custom automation workflows.
-    => The upcoming release will introduce advanced GenAI (RAG) capabilities, including an in-app prompt-to-code generator, AI-driven cron schedule recommendations, and a built-in code editor.
+    【✪】 Architected a developer-centric UI dashboard for real-time log monitoring and precision crontab management, eliminating reliance on external VPS/cloud infrastructure.
+    【✪】 Engineered a native bridge between Android and Termux, enabling seamless execution of polyglot binaries (Rust, Go, Python3, Node.js) on mobile ARM hardware as an independent automation node.
+    【✪】 Localized system infrastructure to transform mobile ARM hardware into an independent automation node, eliminating reliance on external VPS and cloud server costs.
+    【✪】 Built a modular execution engine designed for rapid deployment of new language environments and custom automation workflows.
+    【✪】 The upcoming release will introduce advanced GenAI (RAG) capabilities, including an in-app prompt-to-code generator, AI-driven cron schedule recommendations, and a built-in code editor.
     `,
     techTags: [
       "Flutter",
@@ -302,11 +302,11 @@ export const projects = [
     badge: null,
     title: "Algorithmic Crypto Trading Bot | Astra 2024",
     description: `
-    => Algorithmic Hedging Strategy: Engineered an automated script that opens simultaneous long (buy) and short (sell) positions to capture profits from short-term market breakouts during consolidation phases.
-    => Volatility-Driven Take-Profits: Implemented a multi-tiered take-profit mechanism targeting a base $5 return per asset, while dynamically scaling profits higher during sudden, high-momentum market movements.
-    => Time-Based Market Analysis: Optimized order execution timing by identifying and targeting specific low-volatility windows (1 AM – 5 AM GST) when market prices consistently moved sideways.
-    => Risk Evaluation & Optimization: Analyzed and documented critical system drawbacks, such as the absence of a hard stop-loss and dealing with negative unrealized PnL, to map out future drawdown protection upgrades.
-    => Live Strategy Validation: Successfully ran the automated bot live for 3 months, scaling a $100 starting capital base to over $600 through disciplined execution of the automated hedging strategy.`,
+    【✪】 Algorithmic Hedging Strategy: Engineered an automated script that opens simultaneous long (buy) and short (sell) positions to capture profits from short-term market breakouts during consolidation phases.
+    【✪】 Volatility-Driven Take-Profits: Implemented a multi-tiered take-profit mechanism targeting a base $5 return per asset, while dynamically scaling profits higher during sudden, high-momentum market movements.
+    【✪】 Time-Based Market Analysis: Optimized order execution timing by identifying and targeting specific low-volatility windows (1 AM – 5 AM GST) when market prices consistently moved sideways.
+    【✪】 Risk Evaluation & Optimization: Analyzed and documented critical system drawbacks, such as the absence of a hard stop-loss and dealing with negative unrealized PnL, to map out future drawdown protection upgrades.
+    【✪】 Live Strategy Validation: Successfully ran the automated bot live for 3 months, scaling a $100 starting capital base to over $600 through disciplined execution of the automated hedging strategy.`,
     techTags: ["Python3", "Binance REST APIs", "MySQL", "DigitalOcean"],
     links: {
       //github: "https://github.com/sauravsunil/Astra",
@@ -321,10 +321,10 @@ export const projects = [
     badge: "🚀 Flagship Project",
     title: "AI-Powered EMR System – CIBERNETICO (2020)",
     description: `
-    => Full-Stack Architecture: Engineered a complete Electronic Medical Record (EMR) system using Django, establishing a secure, scalable web infrastructure for clinic management.
-    => Deep Learning Integration: Built and deployed PyTorch Convolutional Neural Networks (CNN) to automate the detection of pneumonia, lung cancer, and breast cancer from medical imaging data.
-    => Enhanced Diagnostic Accuracy: Reduced diagnostic turnaround times and enhanced overall clinical accuracy by training deep learning models on specialized Kaggle datasets.
-    => Built a responsive frontend dashboard utilizing modern JavaScript (ES6+), Bootstrap 5, and Material Design principles.`,
+    【✪】 Full-Stack Architecture: Engineered a complete Electronic Medical Record (EMR) system using Django, establishing a secure, scalable web infrastructure for clinic management.
+    【✪】 Deep Learning Integration: Built and deployed PyTorch Convolutional Neural Networks (CNN) to automate the detection of pneumonia, lung cancer, and breast cancer from medical imaging data.
+    【✪】 Enhanced Diagnostic Accuracy: Reduced diagnostic turnaround times and enhanced overall clinical accuracy by training deep learning models on specialized Kaggle datasets.
+    【✪】 Built a responsive frontend dashboard utilizing modern JavaScript (ES6+), Bootstrap 5, and Material Design principles.`,
     techTags: ["Python3", "JavaScript ES6+", "Bootstrap5", "SQLite & PostgreSQL", "Kaggle (Model training)", "REST API"],
     links: {
       // github: "#", // Update when available
