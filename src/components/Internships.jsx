@@ -13,7 +13,7 @@ const InternshipCard = ({ intern, index }) => (
           {intern.duration}
         </span>
         <span className="bg-white/10 text-white text-[10px] font-black tracking-widest uppercase py-1 px-3 rounded-full border border-white/15">
-          Internship
+          Onsite
         </span>
       </div>
       <h3 className="text-white text-2xl font-black mb-1 tracking-tight">
@@ -85,7 +85,7 @@ const Internships = () => {
 
       {/* Decorative stars */}
       <div className="absolute bottom-10 left-10 text-black opacity-20 animate-pulse">
-        <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z"/></svg>
+        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z"/></svg>
       </div>
     </section>
   );

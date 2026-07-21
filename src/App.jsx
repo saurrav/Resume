@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Preloader from './components/Preloader'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -15,6 +15,13 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Preloader />
@@ -24,9 +31,9 @@ function App() {
       <TechnicalSkills />
       <Services />
       <Projects />
-      <ContentCreator />
+      {/* <ContentCreator /> */}
       <Internships />
-      <Leadership />
+      {/* <Leadership /> */}
       <Certificates />
       <SoftSkills />
       <Contact />

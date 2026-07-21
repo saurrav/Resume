@@ -42,7 +42,7 @@ const ProjectCard = ({ project, aosDelay }) => (
       </div>
 
       {/* Description */}
-      <p className="text-white/60 text-sm md:text-base leading-relaxed mb-6 max-w-2xl font-medium">
+      <p className="text-white/60 text-sm md:text-base leading-relaxed mb-6 max-w-2xl font-medium whitespace-pre-line">
         {project.description}
       </p>
 
@@ -150,7 +150,7 @@ const Projects = () => {
         </div>
 
         {/* GitHub CTA */}
-        <div data-aos="fade-up" data-aos-delay="500" className="mt-16 flex justify-center">
+        <div data-aos="fade-up" data-aos-delay="500" className="hidden mt-16 flex justify-center">
           <a
             href={socialLinks.github}
             target="_blank"
