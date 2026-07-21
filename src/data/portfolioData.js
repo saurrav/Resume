@@ -87,7 +87,7 @@ export const technicalSkills = {
       skills: [
 
         { name: "HTML", level: 95 },
-        { name: "CSS", level: 95 },
+        { name: "React.Js", level: 70 },
         { name: "JavaScript ES6+", level: 95 },
         { name: "Bootstrap5", level: 95 },
       ]
@@ -126,7 +126,6 @@ export const technicalSkills = {
         { name: "Git & GitHub", level: 95 },
         { name: "VS Code", level: 95 },
         { name: "Postman", level: 95 },
-        { name: "Antigravity", level: 95 },
         { name: "Vercel", level: 95 }
       ]
     },
@@ -234,6 +233,7 @@ export const internshipsList = [
       "Django (DRF)",
       "RESTful APIs",
       "JavaScript ES6+",
+      "digitalocean",
       "MySQL"]
   },
   {
@@ -325,7 +325,7 @@ export const projects = [
     => Deep Learning Integration: Built and deployed PyTorch Convolutional Neural Networks (CNN) to automate the detection of pneumonia, lung cancer, and breast cancer from medical imaging data.
     => Enhanced Diagnostic Accuracy: Reduced diagnostic turnaround times and enhanced overall clinical accuracy by training deep learning models on specialized Kaggle datasets.
     => Built a responsive frontend dashboard utilizing modern JavaScript (ES6+), Bootstrap 5, and Material Design principles.`,
-    techTags: ["Python3", "JavaScript ES6+", "Bootstrap5", "SQLite,", "Kaggle (Model training)", "REST API"],
+    techTags: ["Python3", "JavaScript ES6+", "Bootstrap5", "SQLite & PostgreSQL", "Kaggle (Model training)", "REST API"],
     links: {
       // github: "#", // Update when available
     },
@@ -381,7 +381,7 @@ export const footerContent = {
 // Never commit real credentials to source code.
 // Copy .env.example to .env and fill in your values.
 export const emailjsConfig = {
-  serviceId:  import.meta.env.VITE_EMAILJS_SERVICE_ID  || "",
+  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "",
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "",
-  publicKey:  import.meta.env.VITE_EMAILJS_PUBLIC_KEY  || "",
+  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "",
 };
