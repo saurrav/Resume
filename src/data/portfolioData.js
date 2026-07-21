@@ -40,7 +40,7 @@ export const heroContent = {
 };
 
 export const aboutContent = {
-  heading: "Hello!",
+  heading: "About Me!",
   bio: {
     //before: "Hi, my name is",
     name: "Full-Stack Software Engineer & Application Developer",
