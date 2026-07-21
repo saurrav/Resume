@@ -348,6 +348,12 @@ export const certificates = {
       url: ""
     },
     {
+      name: "Full Stack Web Developer: Django 2020",
+      issuer: "G-tec : 250396",
+      icon: "👨🏻‍💻",
+      url: ""
+    },
+    {
       name: "Advanced Penetration Tester 2024",
       issuer: "RedTeam Hacker Academy",
       icon: "👨🏻‍💻",
