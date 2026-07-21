@@ -5,7 +5,7 @@ import { aboutContent } from '../data/portfolioData';
 // Tech stack SVG icons rendered inline for crisp rendering
 const DjangoIcon = () => (
   <div className="flex flex-col items-center gap-2">
-    <div className="w-16 h-16 md:w-20 md:h-20 bg-white/5 rounded-2xl flex items-center justify-center shadow-lg border border-white/10 p-0 overflow-hidden">
+    <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center p-0 overflow-hidden">
       <img src="/django.png" alt="Django" className="w-full h-full object-contain scale-125" />
     </div>
     <span className="text-xs font-bold text-white/70 uppercase tracking-wider">Django</span>
@@ -14,7 +14,7 @@ const DjangoIcon = () => (
 
 const AspNetIcon = () => (
   <div className="flex flex-col items-center gap-2">
-    <div className="w-16 h-16 md:w-20 md:h-20 bg-white/5 rounded-2xl flex items-center justify-center shadow-lg border border-white/10 p-0 overflow-hidden">
+    <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center p-0 overflow-hidden">
       <img src="/asp_net_mvc.png" alt="ASP.NET MVC" className="w-full h-full object-contain scale-125" />
     </div>
     <span className="text-xs font-bold text-white/70 uppercase tracking-wider">ASP.NET MVC</span>
@@ -23,7 +23,7 @@ const AspNetIcon = () => (
 
 const LaravelIcon = () => (
   <div className="flex flex-col items-center gap-2">
-    <div className="w-16 h-16 md:w-20 md:h-20 bg-white/5 rounded-2xl flex items-center justify-center shadow-lg border border-white/10 p-3">
+    <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center p-3">
       <img src="/laravel.png" alt="Laravel" onError={(e) => { e.target.src = '/php.png'; }} className="w-full h-full object-contain" />
     </div>
     <span className="text-xs font-bold text-white/70 uppercase tracking-wider">Laravel</span>
@@ -67,13 +67,15 @@ const About = () => {
         <div data-aos="fade-left" data-aos-delay="200" className="flex-1 text-white mt-8 md:mt-0 relative z-20">
           
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">{aboutContent.heading}</h2>
-          <p className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-gray-300">
+          <p className="text-lg font-bold mb-2 leading-relaxed max-w-3xl text-gray-300">
             {aboutContent.bio.before}{' '}
             <span className="text-white text-xl font-black mx-1 tracking-wide uppercase">
               {aboutContent.bio.name}
             </span>
             {aboutContent.bio.after}
           </p>
+
+          <p className="text-lg italic text-gray-300">📍 UAE , Abu Dhabi</p>
 
           {/* Horizontal Skills Row */}
           <div className="flex items-center gap-10 mt-8">
