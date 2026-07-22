@@ -121,12 +121,11 @@ export const technicalSkills = {
     },
 
     {
-      title: "Tools & Automation",
+      title: "Additional Skills",
       skills: [
-        { name: "Git & GitHub", level: 95 },
-        { name: "VS Code", level: 95 },
-        { name: "Postman", level: 95 },
-        { name: "Vercel", level: 95 }
+        { name: "Prompt Engineering", level: 95 },
+        { name: "CyberSecurity", level: 95 },
+        { name: "Power BI", level: 75 }
       ]
     },
   ]
