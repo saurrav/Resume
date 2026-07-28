@@ -201,18 +201,24 @@ export const leadershipList = [
 // Brand New Internships Data
 export const internshipsList = [
   {
-    organization: "SESAME SOFTWARE SOLUTIONS, SPERIDIAN TECHNOLOGIES, INDIA",
-    role: "Jr.SOFTWARE ENGINEER",
-    duration: "2021 - 2023",
-    skills: ["LMS Integration", "Data Analytics",
-      "Web Application Development",
-      "Data Synchronization",
-      "Application Security",
-      "Requirement Gathering",
+    organization: "EXTERN TECHNOLOGY, KAREOMED, ABU DHABI",
+    role: "SOFTWARE ENGINEER",
+    duration: "since 2025",
+    skills: ["EMR(Electronic Medical Record) Integration",
+      "Data Analytics & Visualization",
+      "Application Security (OWASP Top 10)",
+      "Vulnerability Remediation",
+      "Cross-System Data Exchange",
+      "Product Innovation & Prototyping",
       "L1/L2 Production Support",
-      "Technical Documentation",
-      "API Integration"],
-    tech: ["Django", "MySQL", "JavaScript (ES6+)", "Bootstrap5"]
+      "Generative AI & RAG Integration",
+      "Polyglot Software Development"],
+    tech: ["ASP.NET MVC",
+      "JavaScript ES6+",
+      "Chart.js",
+      "MySQL",
+      "Bootstrap5", "Python"
+    ]
   },
   {
     organization: "TAFABOT IT INFRASTRUCTURE LLC, DUBAI",
@@ -236,25 +242,20 @@ export const internshipsList = [
       "MySQL"]
   },
   {
-    organization: "EXTERN TECHNOLOGY, KAREOMED, ABU DHABI",
-    role: "SOFTWARE ENGINEER",
-    duration: "since 2025",
-    skills: ["EMR Integration",
-      "Data Analytics & Visualization",
-      "Application Security (OWASP Top 10)",
-      "Vulnerability Remediation",
-      "Cross-System Data Exchange",
-      "Product Innovation & Prototyping",
+    organization: "SESAME SOFTWARE SOLUTIONS, SPERIDIAN TECHNOLOGIES, INDIA",
+    role: "Jr.SOFTWARE ENGINEER",
+    duration: "2021 - 2023",
+    skills: ["LMS(Legal Management System) Integration", "Data Analytics",
+      "Web Application Development",
+      "Data Synchronization",
+      "Application Security",
+      "Requirement Gathering",
       "L1/L2 Production Support",
-      "Generative AI & RAG Integration",
-      "Polyglot Software Development"],
-    tech: ["ASP.NET MVC",
-      "JavaScript ES6+",
-      "Chart.js",
-      "MySQL",
-      "Bootstrap5", "Python"
-    ]
-  }
+      "Technical Documentation",
+      "API Integration"],
+    tech: ["Django", "MySQL", "JavaScript (ES6+)", "Bootstrap5"]
+  },
+
 ];
 
 // Brand New Soft Skills Data
@@ -274,6 +275,31 @@ export const projects = [
     id: "foodmesh",
     number: "01",
     badge: "🚀 Flagship Project",
+    title: "AI Powered-Speech & Voice Tutoring Platform | EDU BUDDY AI (2026)",
+    description: `
+    【✪】 Architected a Full-Stack AI Voice SaaS for Child Speech Therapy: Originally built to help children overcome shyness and social anxiety by practicing natural conversation with an AI companion ("Buddy") in a safe, content-moderated environment guarded against inappropriate language; later upscaled into a dual-persona platform by adding "Teach", a subject-matter AI tutor delivering personalized, subject-wise lessons.
+    【✪】 Engineered a Voice-Driven RAG Pipeline: Implemented client-side PDF text extraction segmented into a MongoDB retrieval corpus, queried in real time via Vapi AI's server-side tool-calling during live voice sessions to ground the AI's answers in the student's own textbook.
+    【✪】 Automated AI Curriculum Generation: Integrated the Google Gemini API to auto-generate chapter-wise study plans and MCQs from uploaded PDFs, solving output size limits with a custom two-pass generation strategy.
+    【✪】 Built Freemium Subscription Infrastructure: Implemented secure authentication and tiered billing (Free / Standard / Pro) using Stripe(in clerk), including Svix-verified webhook handling for subscription lifecycle events (create, update, cancel).
+    【✪】 Designed for Serverless Scale: Deployed on Vercel using a Mongoose connection-singleton pattern to manage MongoDB Atlas under serverless constraints, and Vercel Blob for direct client-to-CDN file uploads, keeping server compute costs near zero.
+    `,
+    techTags: [
+      "Next.js 16",
+      "MongoDB (Mongoose)",
+      "TailwindCSS v4",
+      "Vapi AI",
+      "Google Gemini",
+      "Clerk", "Vercel", "Prompt Engineering"
+    ],
+    links: {
+      demo: 'https://speech-therapy-rosy-sigma.vercel.app/',
+      demoText: 'Live Preview',
+    },
+    isFlagship: true,
+  }, {
+    id: "foodmesh",
+    number: "02",
+    badge: "🚀 Flagship Project",
     title: "Autonomous Resource Management | Cron Pilot 2026",
     description: `
     【✪】 Architected a developer-centric UI dashboard for real-time log monitoring and precision crontab management, eliminating reliance on external VPS/cloud infrastructure.
@@ -292,12 +318,13 @@ export const projects = [
     ],
     links: {
       demo: 'https://apkpure.net/cronpilot/com.kairosfortis.cronpilot',
+      demoText: 'Live App',
     },
     isFlagship: true,
   },
   {
     id: "karigar",
-    number: "02",
+    number: "03",
     badge: null,
     title: "Algorithmic Crypto Trading Bot | Astra 2024",
     description: `
@@ -316,7 +343,7 @@ export const projects = [
   },
   {
     id: "sentiment-analysis",
-    number: "03",
+    number: "04",
     badge: "🚀 Flagship Project",
     title: "AI-Powered EMR System – CIBERNETICO (2020)",
     description: `
@@ -335,16 +362,10 @@ export const projects = [
 export const certificates = {
   featured: [
     {
-      name: "Google Cloud Fundamentals: Core Infrastructure 2019",
-      issuer: "Google",
-      icon: "☁️",
-      url: "https://www.coursera.org/account/accomplishments/verify/HSMEJ42CHBKM"
-    },
-    {
-      name: "Bachelor of Technology | BTech, Computer Science 2020",
-      issuer: "Ponnaiyah Ramajayam Institute of Science & Technology : 234CEM82061",
-      icon: "👨🏻‍🎓",
-      url: ""
+      name: "Advanced Penetration Tester | APT  2024",
+      issuer: "RedTeam Hacker Academy",
+      icon: "👨🏻‍💻",
+      url: "https://www.khda.gov.ae/KHDASchool/VerificationPages/TI_Attestation_Verfication.aspx?id=OwKRopKOBlSlAgmu0N9rZ0jHWLIrUuY6Efl7bAQwzhdHuImu"
     },
     {
       name: "Full Stack Web Developer: Django 2020",
@@ -353,10 +374,16 @@ export const certificates = {
       url: ""
     },
     {
-      name: "Advanced Penetration Tester 2024",
-      issuer: "RedTeam Hacker Academy",
-      icon: "👨🏻‍💻",
-      url: "https://www.khda.gov.ae/KHDASchool/VerificationPages/TI_Attestation_Verfication.aspx?id=OwKRopKOBlSlAgmu0N9rZ0jHWLIrUuY6Efl7bAQwzhdHuImu"
+      name: "Bachelor of Technology | BTech, Computer Science 2020",
+      issuer: "Ponnaiyah Ramajayam Institute of Science & Technology : 234CEM82061",
+      icon: "👨🏻‍🎓",
+      url: ""
+    },
+    {
+      name: "Google Cloud Fundamentals: Core Infrastructure 2019",
+      issuer: "Google",
+      icon: "☁️",
+      url: "https://www.coursera.org/account/accomplishments/verify/HSMEJ42CHBKM"
     },
   ],
   viewAllUrl:
