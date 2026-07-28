@@ -292,7 +292,7 @@ export const projects = [
       "Clerk", "Vercel", "Prompt Engineering"
     ],
     links: {
-      demo: 'https://speech-therapy-rosy-sigma.vercel.app/',
+      demo: 'https://edu-buddy-rho.vercel.app/',
       demoText: 'Live Preview',
     },
     isFlagship: true,
