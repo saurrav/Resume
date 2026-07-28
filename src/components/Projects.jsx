@@ -61,6 +61,9 @@ const ProjectCard = ({ project, aosDelay }) => (
         })}
       </ul>
 
+      {/* Spacer */}
+      <div className="w-full h-8"></div>
+
       {/* Tech Tags */}
       <div className="flex flex-wrap gap-2 mb-8">
         {project.techTags.map((tag) => (
