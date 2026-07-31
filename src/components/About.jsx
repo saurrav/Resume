@@ -34,16 +34,16 @@ const About = () => {
   return (
     <section id="about" className="bg-[#1c1c1c] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-start">
-        
+
         {/* Left Side: ID Badge and Skills */}
         <div className="flex flex-col items-center w-full md:w-[350px] shrink-0 mt-12 md:mt-0">
-          
+
           <div data-aos="drop-bounce" className="relative flex justify-center w-full">
             {/* Lanyard string */}
             <div className="absolute -top-32 left-1/2 w-3 h-40 bg-black transform -translate-x-1/2 shadow-inner z-0"></div>
             {/* Lanyard clip */}
             <div className="absolute -top-6 left-1/2 w-6 h-12 bg-gray-300 rounded border border-gray-400 transform -translate-x-1/2 z-10 shadow-[0_2px_10px_rgba(0,0,0,0.3)]"></div>
-            
+
             {/* Badge Card */}
             <div className="bg-gray-900 border-2 border-[#b8b6b5] w-full max-w-[280px] rounded-2xl p-3 shadow-[0_20px_40px_rgba(0,0,0,0.4)] relative z-20 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
               {/* Cutout Hole */}
@@ -52,9 +52,9 @@ const About = () => {
               </div>
               {/* Image Container */}
               <div className="w-full aspect-[3/4] overflow-hidden rounded-xl bg-gray-800 border-2 border-transparent">
-                <img 
-                  src={stackImage} 
-                  alt="Saurav Sunil — Full Stack Software Engineer" 
+                <img
+                  src={stackImage}
+                  alt="Saurav Sunil — Full Stack Software Engineer"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
@@ -65,7 +65,7 @@ const About = () => {
 
         {/* Right Side: Info Content */}
         <div data-aos="fade-left" data-aos-delay="200" className="flex-1 text-white mt-8 md:mt-0 relative z-20">
-          
+
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">{aboutContent.heading}</h2>
           <p className="text-lg font-bold mb-2 leading-relaxed max-w-3xl text-gray-300">
             {aboutContent.bio.before}{' '}
@@ -102,10 +102,10 @@ const About = () => {
 
       {/* Decorative stars */}
       <div className="absolute top-10 right-10 md:right-20 text-white opacity-10 animate-pulse">
-        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z"/></svg>
+        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z" /></svg>
       </div>
       <div className="absolute bottom-16 left-4 md:left-20 text-white opacity-10 animate-pulse" style={{ animationDelay: '1s' }}>
-        <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z"/></svg>
+        <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z" /></svg>
       </div>
     </section>
   );
