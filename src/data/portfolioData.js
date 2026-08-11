@@ -351,7 +351,7 @@ export const projects = [
     【✪】 Deep Learning Integration: Built and deployed PyTorch Convolutional Neural Networks (CNN) to automate the detection of pneumonia, lung cancer, and breast cancer from medical imaging data.
     【✪】 Enhanced Diagnostic Accuracy: Reduced diagnostic turnaround times and enhanced overall clinical accuracy by training deep learning models on specialized Kaggle datasets.
     【✪】 Built a responsive frontend dashboard utilizing modern JavaScript (ES6+), Bootstrap 5, and Material Design principles.`,
-    techTags: ["Python3", "JavaScript ES6+", "Bootstrap5", "SQLite & PostgreSQL", "Kaggle (Model training)", "REST API"],
+    techTags: ["Django", "PyTorch", "JavaScript ES6+", "Bootstrap5", "SQLite & PostgreSQL", "Kaggle (Model training)", "REST API"],
     links: {
       // github: "#", // Update when available
     },
