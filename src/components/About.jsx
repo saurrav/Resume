@@ -12,6 +12,15 @@ const DjangoIcon = () => (
   </div>
 );
 
+const ReactIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center p-2 overflow-hidden">
+      <img src="/react.png" alt="React" className="w-full h-full object-contain" />
+    </div>
+    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">React</span>
+  </div>
+);
+
 const AspNetIcon = () => (
   <div className="flex flex-col items-center gap-2">
     <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center p-0 overflow-hidden">
@@ -87,6 +96,9 @@ const About = () => {
             </div>
             <div data-aos="zoom-in" data-aos-delay="600" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
               <LaravelIcon />
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="750" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+              <ReactIcon />
             </div>
           </div>
 
