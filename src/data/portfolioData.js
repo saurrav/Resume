@@ -23,7 +23,7 @@ export const personalInfo = {
 export const socialLinks = {
   github: "",
   linkedin: "http://www.linkedin.com/in/sauravsunil003",
-  instagram: "https://www.instagram.com/saurrav_",
+  instagram: "https://www.instagram.com/_saurrav__",
 };
 
 export const heroContent = {
