@@ -275,6 +275,30 @@ export const projects = [
     id: "foodmesh",
     number: "01",
     badge: "🚀 Flagship Project",
+    title: "Embeddable AI & Document Analysis Module | ChatbotX (2026)",
+    description: `
+    【✪】 Architected a Zero-Infrastructure AI Module: Engineered a lightweight, drop-in Node.js/Express module that parses enterprise PDFs and provides an embeddable AI chatbot interface, eliminating the need for complex vector databases or external orchestration frameworks.
+    【✪】 Implemented Advanced Security Guardrails: Developed a custom 4-layer document security pipeline utilizing raw binary scanning and magic-byte validation to successfully block malicious PDF macros, embedded scripts, and metadata-based prompt injection attacks.
+    【✪】 Optimized Server Memory for High Concurrency: Designed a disk-based session caching system that writes active PDF context segments to disk rather than keeping them in RAM, drastically reducing V8 memory consumption and preventing server crashes under heavy concurrent traffic.
+    【✪】 Built a Serverless-Native Storage Architecture: Patched file-system dependencies to automatically detect cloud environments (Vercel, AWS Lambda) and dynamically route all write operations to temporary /tmp storage, ensuring full compatibility with read-only serverless constraints.
+    【✪】 Uploaded PDF should contain all the details about the company's history, contact information, products, pricing, etc.
+    `,
+    techTags: [
+      "Node.js/Express",
+      "Vanilla JS",
+      "Google Gemini",
+      "Vercel", "Prompt Engineering"
+    ],
+    links: {
+      demo: 'https://pdf-gemini-chatbot-git-main-tttt-8c46.vercel.app/',
+      demoText: 'Live Preview',
+    },
+    isFlagship: true,
+  },
+  {
+    id: "foodmesh",
+    number: "02",
+    badge: "🚀 Flagship Project",
     title: "AI Powered-Speech & Voice Tutoring Platform | EDU BUDDY AI (2026)",
     description: `
     【✪】 Architected a Full-Stack AI Voice SaaS for Child Speech Therapy: Originally built to help children overcome shyness and social anxiety by practicing natural conversation with an AI companion ("Buddy") in a safe, content-moderated environment guarded against inappropriate language; later upscaled into a dual-persona platform by adding "Teach", a subject-matter AI tutor delivering personalized, subject-wise lessons.
@@ -296,9 +320,10 @@ export const projects = [
       demoText: 'Live Preview',
     },
     isFlagship: true,
-  }, {
+  },
+  {
     id: "foodmesh",
-    number: "02",
+    number: "03",
     badge: "🚀 Flagship Project",
     title: "Autonomous Resource Management | Cron Pilot 2026",
     description: `
@@ -324,7 +349,7 @@ export const projects = [
   },
   {
     id: "karigar",
-    number: "03",
+    number: "04",
     badge: null,
     title: "Algorithmic Crypto Trading Bot | Astra 2024",
     description: `
@@ -343,7 +368,7 @@ export const projects = [
   },
   {
     id: "sentiment-analysis",
-    number: "04",
+    number: "05",
     badge: "🚀 Flagship Project",
     title: "AI-Powered EMR System – CIBERNETICO (2020)",
     description: `
