@@ -85,9 +85,8 @@ export const technicalSkills = {
     {
       title: "Full Stack",
       skills: [
-
         { name: "HTML", level: 95 },
-        { name: "Next.Js", level: 70 },
+        { name: "Next.Js", level: 80 },
         { name: "JavaScript ES6+", level: 95 },
         { name: "Bootstrap5", level: 95 },
       ]
@@ -96,7 +95,7 @@ export const technicalSkills = {
       title: "Backend",
       skills: [
         { name: "Django", level: 95 },
-        { name: "Flask", level: 80 },
+        { name: "Flask", level: 90 },
         { name: "ASP.NET MVC", level: 95 },
         { name: "Laravel", level: 90 },
 
@@ -107,16 +106,16 @@ export const technicalSkills = {
       skills: [
         { name: "MongoDB", level: 95 },
         { name: "MySQL", level: 95 },
-        { name: "Firebase", level: 80 }
+        { name: "SQLite", level: 95 }
       ]
     },
     {
       title: "Programming Languages",
       skills: [
         { name: "Python3", level: 95 },
-        { name: "C#", level: 85 },
+        { name: "C#", level: 90 },
         { name: "JavaScript ES6+", level: 95 },
-        { name: "PHP", level: 85 },
+        { name: "PHP", level: 90 },
       ]
     },
 
