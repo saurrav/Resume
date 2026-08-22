@@ -87,7 +87,7 @@ export const technicalSkills = {
       skills: [
 
         { name: "HTML", level: 95 },
-        { name: "React.Js", level: 70 },
+        { name: "Next.Js", level: 70 },
         { name: "JavaScript ES6+", level: 95 },
         { name: "Bootstrap5", level: 95 },
       ]
