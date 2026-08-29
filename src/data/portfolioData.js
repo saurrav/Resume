@@ -289,7 +289,7 @@ export const projects = [
       "Vercel", "Prompt Engineering"
     ],
     links: {
-      demo: 'https://pdf-gemini-chatbot-git-main-tttt-8c46.vercel.app/',
+      demo: 'https://pdf-gemini-chatbot-omega.vercel.app/',
       demoText: 'Live Preview',
     },
     isFlagship: true,
