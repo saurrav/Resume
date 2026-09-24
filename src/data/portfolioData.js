@@ -209,7 +209,7 @@ export const internshipsList = [
       "Vulnerability Remediation",
       "Cross-System Data Exchange",
       "Product Innovation & Prototyping",
-      "L1/L2 Production Support",
+      "L1 Production Support",
       "Generative AI & RAG Integration",
       "Polyglot Software Development"],
     tech: ["ASP.NET MVC",
